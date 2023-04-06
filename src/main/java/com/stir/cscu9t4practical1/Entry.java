@@ -14,7 +14,10 @@ public class Entry {
     dateAndTime = inst;
     distance = dist;
   } //constructor
-  
+
+  public Entry() {
+  }
+
   public String getName () {
     return name;
   } //getName
@@ -54,5 +57,25 @@ public class Entry {
              +getDay()+"/"+getMonth()+"/"+getYear()+"\n";
    return result;
   } //getEntry
+
+  public String getTerrain() {
+    return "";
+  }
+
+  public String getTempo() {
+    return "";
+  }
+
+  public int getRepetitions() {
+    return 0;
+  }
+
+  public int getRecovery() {
+    return 0;
+  }
+
+  public String getWhere() {
+    return "";
+  }
    
 } // Entry
